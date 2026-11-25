@@ -1,0 +1,8 @@
+{
+  "name": "DoodleSquad - Collaborative Homework & Creative Study Platform",
+  "description": "DoodleSquad is where brainstorms hatch! A playful collaborative homework hub featuring interactive live canvas, AI study superpowers, study squads, and a community wall of fame.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

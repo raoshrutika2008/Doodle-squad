@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-doodle {
+  font-family: 'Fredoka', 'Short Stack', cursive, sans-serif;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+/* Notebook paper pattern with dot grid and vertical margin */
+.notebook-pattern {
+  background-color: #fffdf5;
+  background-image: radial-gradient(#d3cbbe 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+.notebook-margin-line {
+  position: relative;
+}
+
+.notebook-margin-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 48px;
+  width: 2px;
+  background-color: #f87171;
+  opacity: 0.55;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Neubrutalist shadow utility */
+.brutal-shadow {
+  box-shadow: 4px 4px 0px 0px #18181b;
+}
+
+.brutal-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #18181b;
+}
+
+.brutal-shadow-lg {
+  box-shadow: 6px 6px 0px 0px #18181b;
+}
+
+.brutal-btn {
+  transition: all 0.15s ease-in-out;
+}
+
+.brutal-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #18181b;
+}
+
+.brutal-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #18181b;
+}
